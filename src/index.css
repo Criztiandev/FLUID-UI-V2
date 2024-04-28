@@ -5,10 +5,13 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --primary: 23, 100%, 65%;
+    --primary: 255, 131, 55;
+    --secondary: 252, 231, 226;
+    --accent: 165, 111, 99;
   }
 
   .dark {
     --background: 0 0% 3.9%;
+    --primary: 255, 145, 77;
   }
 }
