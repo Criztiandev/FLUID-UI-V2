@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --primary: 23, 100%, 65%;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+  }
+}

@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#FF914D",
+        background: "hsl(var(--background))",
+        primary: "hsl(var(--primary))",
       },
     },
   },
